@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="../fermi-chatbot/docs/assets/css/toolkit.css" rel="stylesheet">
+  <link href="../fermi-chatbot/docs/assets/css/application.css" rel="stylesheet">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <script>
+  window.ChatraSetup = {
+      mode: 'frame',
+      /* id of the block you want to embed chat into */
+      injectTo: 'chatra-wrapper'
+  };
+  </script>
+  <link rel="import" href="../iron-component-page/iron-component-page.html">
+</head>
+
+<body>
+    <iron-component-page src="chat-window.html"></iron-component-page>
+<!--top bar!!!-->
+<div id="top_bar">
+<!-- 	<div id="user"> -->
+		<div id="search">
+		    <form class="navbar-form navbar-right app-search" role="search">
+		        <input type="text" class="form-control" data-action="grow" placeholder="Search">
+		    </form>
+		</div>
+		<div id="user">
+		    <button class="btn btn-default navbar-btn navbar-btn-avitar" data-toggle="popover">
+		      <img class="img-circle" src="../fermi-chatbot/icons/user.svg">
+		    </button>
+		</div>
+<!-- 	</div> -->
+</div>
+
+<!--side bar!!!-->
+<div id="side_bar">
+	<div id="logo">
+		  <a class="logo" href=""> <img src="../fermi-chatbot/icons/logo.svg" width="45" height="45"> </a>
+	</div>
+
+	<nav>
+          <a class="side_nav_top" href=""><div id="library"></div></a>
+          <a class="side_nav_top" href=""><div id="calendar"></div></a>
+          <a class="side_nav_top" href=""><div id="chat"></div></a>
+          <a class="side_nav_top" href=""><div id="robot"></div></a>
+	</nav>
+
+	<div id="side_nav_space">
+	</div>
+
+	<nav id="side_nav_bottom">
+	      <a class="side_nav_top" href=""><div id="settings"></div></a>
+	      <a class="side_nav_top" href=""><div id="help"></div></a>
+	</nav>
+</div>
+
+<!--Chat widget-->
+<div id="chat_widget">
+  
+</div>
+
+
+    <script src="../fermi-chatbot/docs/assets/js/jquery.min.js"></script>
+    <script src="../fermi-chatbot/docs/assets/js/chart.js"></script>
+    <script src="../fermi-chatbot/docs/assets/js/toolkit.js"></script>
+    <script src="../fermi-chatbot/docs/assets/js/application.js"></script>
+    <script>
+      // execute/clear BS loaders for docs
+      $(function(){
+        if (window.BS&&window.BS.loader&&window.BS.loader.length) {
+          while(BS.loader.length){(BS.loader.pop())()}
+        }
+      })
+    </script>
+
+
+
+</body>
+
+</html>

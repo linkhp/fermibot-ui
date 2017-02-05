@@ -1,0 +1,171 @@
+html {
+	background-color: #DDE1E4;
+}
+
+#chat_widget {
+	width: 100%;
+	height: 100%;
+	background-color: red; /*#DDE1E4*/
+    position: absolute;
+    margin-top: 78.75px; 
+    margin-left: 88.75px;
+
+}
+
+#top_bar {
+	width: 100%;
+	height: 70px;
+	background-color: #DDE1E4; /*#DDE1E4*/
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 80;
+    /*box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    */box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#logo {
+	margin-left: 24px;
+	margin-right: 21px;
+	margin-bottom: 35px;
+	margin-top: 17.5px;
+}
+
+#side_bar {
+	width: 80px;
+	height: 100%;
+	background-color: #374047;
+    position: absolute;
+    top: 80; right: 0; bottom: 0; left: 0;
+    display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	      flex-direction: column;
+	-webkit-align-items: center;
+	  -ms-flex-align: center;
+	      align-items: center;
+	color: rgba(255, 255, 255, 0.56);
+	font-weight: 500;
+}
+
+.side_nav_top {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.56);
+  margin-right: 21px;
+    margin-left: 24px;
+    margin-bottom: 35px;
+}
+
+nav {
+	display: -webkit-flex !important;
+	display: -ms-flexbox !important;
+	display: flex !important;
+	-webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	      flex-direction: column;
+	-webkit-align-items: center;
+	  -ms-flex-align: center;
+	      align-items: center;
+	color: rgba(255, 255, 255, 0.56);
+	font-weight: 500;
+}
+
+#side_nav_space {
+	width: 80px;
+	height: 560px;
+}
+
+#side_nav_bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#user {
+    position: absolute;
+    right: 17.5px;	
+}
+
+#search {
+	position: absolute;
+	right: 52.5px;
+}
+
+#library{
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/library.svg);
+	background-size: 100% 100%;
+}
+
+#library:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/library_1.svg);
+}
+
+#calendar {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/calendar.svg);
+	background-size: 100% 100%;
+}
+
+#calendar:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/calendar_1.svg);
+}
+
+#chat {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/chat.svg);
+	background-size: 100% 100%;
+}
+
+#chat:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/chat_1.svg);
+}
+
+#robot {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/robot.svg);
+	background-size: 100% 100%;
+}
+
+#robot:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/robot_1.svg);
+}
+
+#settings {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/settings.svg);
+	background-size: 100% 100%;
+}
+
+#settings:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/settings_1.svg);
+}
+
+#help {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/help.svg);
+	background-size: 100% 100%;
+}
+
+#help:hover {
+	width: 35px;
+	height: 35px;
+	background-image: url(../fermi-chatbot/icons/help_1.svg);
+}
